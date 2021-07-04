@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.629144">
+<testcase classname="To book the hotel from AdactinHotel app and then get the order id" name="To book a hotel from Adactin hotel app" time="14.629144">
+<system-out><![CDATA[Given User is in adactin login page.........................................passed
+When User enter valid username and password and click login button..........passed
+And User select location, hotels, room type, number of rooms, Indate, Outdate, adult room, child room and click search button.passed
+And User select radio button and click continue button......................passed
+And User enter first name, last name, address, creditcard number, creditcard type, month, year, cvv number and click booknow button.passed
+Then User must get the order id.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

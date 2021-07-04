@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-03T11:22:19.042Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3301710600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To book a hotel from Adactin hotel app",
+        "description": "",
+        "id": "to-book-the-hotel-from-adactinhotel-app-and-then-get-the-order-id;to-book-a-hotel-from-adactin-hotel-app",
+        "after": [
+          {
+            "result": {
+              "duration": 975544600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3607479600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in adactin login page",
+            "match": {
+              "location": "LoginSteps.user_is_in_adactin_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999530000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter valid username and password and click login button",
+            "match": {
+              "location": "LoginSteps.userEnterValidUsernameAndPasswordAndClickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1712091100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User select location, hotels, room type, number of rooms, Indate, Outdate, adult room, child room and click search button",
+            "match": {
+              "location": "LoginSteps.userSelectLocationHotelsRoomTypeNumberOfRoomsIndateOutdateAdultRoomChildRoomAndClickSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628398900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select radio button and click continue button",
+            "match": {
+              "location": "LoginSteps.userSelectRadioButtonAndClickContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9406409600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter first name, last name, address, creditcard number, creditcard type, month, year, cvv number and click booknow button",
+            "match": {
+              "location": "LoginSteps.userEnterFirstNameLastNameAddressCreditcardNumberCreditcardTypeMonthYearCvvNumberAndClickBooknowButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1702500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User must get the order id",
+            "match": {
+              "location": "LoginSteps.userMustGetTheOrderId()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To book the hotel from AdactinHotel app and then get the order id",
+    "description": "",
+    "id": "to-book-the-hotel-from-adactinhotel-app-and-then-get-the-order-id",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/AdactinLogin.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
